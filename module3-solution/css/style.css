@@ -1,9 +1,6 @@
 body{
     font-family: 'Baloo Paaji 2', cursive;
 }
-#chicken, #beef, #sushi{
-    padding: 20px;
-}
 #chicken{
     background-color: #fbc531;
 }
@@ -17,15 +14,9 @@ body{
 /* @media (max-width: 575px) {} */
 /* Small devices */
 @media (min-width: 0px) and (max-width: 767px) {
-    .col-xs-12{
-        margin-bottom: 15px;
-    }
 }
 /* Medium devices */
 @media (min-width: 768px) and (max-width: 991px) {
-    .col-md-6{
-        margin-bottom: 25px;
-    }
 }
 /* Large devices */
 @media (min-width: 992px) and (max-width: 1199px) {
